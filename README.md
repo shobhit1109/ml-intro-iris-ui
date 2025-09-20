@@ -1,4 +1,4 @@
-# AI Literacy Module 2: Machine Learning & Deep Learning
+#Introduction to Machine Learning & Deep Learning
 
 This repository contains resources and code for learning the basics of Machine Learning (ML) and Deep Learning (DL) using the Iris dataset. It includes Jupyter notebooks for hands-on practice and a Streamlit app for deploying a trained model.
 
