@@ -1,4 +1,4 @@
-#Introduction to Machine Learning & Deep Learning
+# Introduction to Machine Learning & Deep Learning
 
 This repository contains resources and code for learning the basics of Machine Learning (ML) and Deep Learning (DL) using the Iris dataset. It includes Jupyter notebooks for hands-on practice and a Streamlit app for deploying a trained model.
 
@@ -18,23 +18,23 @@ This repository contains resources and code for learning the basics of Machine L
 
 ### Installation
 1. Clone this repository:
-   ```
-   git clone <repo-url>
+   ```bash
+   git clone https://github.com/shobhit1109/ml-intro-iris-ui.git
    cd ai-literacy-ML-DL
    ```
 2. Create and activate a virtual environment:
-   ```
+   ```bash
    python -m venv .venv
    .\.venv\Scripts\Activate.ps1   # On Windows PowerShell
    # Or
    source .venv/bin/activate        # On macOS/Linux
    ```
 3. Install required packages:
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
    If `requirements.txt` is not present, install manually:
-   ```
+   ```bash
    pip install pandas numpy matplotlib seaborn scikit-learn tensorflow streamlit joblib
    ```
 
@@ -45,7 +45,7 @@ Open `ml-intro.ipynb` or `dl-intro.ipynb` in Jupyter Notebook or VS Code and run
 
 ### Streamlit App
 To run the Iris species prediction app:
-```powershell
+```bash
 streamlit run app.py
 ```
 This will launch a web interface where you can input flower features and get predictions.
